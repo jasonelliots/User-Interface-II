@@ -46,12 +46,12 @@ a {
     text-decoration: none; 
 }
 
-nav {
-  
+hr {
+    border: .5px solid #363636; 
+    width: 100%;
 }
-
 footer {
-
+    text-align: center;
 }
 
 /* class styling */
@@ -70,10 +70,9 @@ div.middle {
     justify-content: center;
 }
 
-
-
 div.bottom {
-    margin-top: 20px; 
+    margin-top: 20px;
+    margin-bottom: 20px; 
     display: flex;
     justify-content: space-between;
 }
@@ -85,19 +84,28 @@ justify-content: center;
 }
 
 
-
 /* specific elements */
+
+@keyframes buttongradient {
+    from {background-color: #b7efcd;}
+    to {background-color: #363636;}
+  }
 
 nav a{
     color: #363636;
-    border: 1px solid #363636;
-    border-radius: 1px; 
-    letter-spacing: 3px;  
+    /* border: 1px solid #363636;
+    border-radius: 1px;  */
+    letter-spacing: 3px;
+    margin: 5px;  
 }
 
 nav a:hover {
-    background-color: #4cd3c2;
+    background-color: #363636;
     text-transform: uppercase;
+    color: white; 
+    animation-name: buttongradient;
+    animation-duration: 5s; 
+    
 }
 
 .bigimage {
@@ -122,16 +130,36 @@ nav a:hover {
 
 .buttons {
     color: #363636;
-    border: 1px solid #363636;
-    border-radius: 1px; 
+    /* border: 1px solid #363636;
+    border-radius: 1px;  */
     letter-spacing: 3px; 
-    margin: 5px; 
+    margin: 10px; 
     
 }
 
 .buttons:hover {
-    background-color: #4cd3c2;
+    background-color: #363636;
+    color: white; 
     text-transform: uppercase;
+    animation-name: buttongradient;
+    animation-duration: 5s;
+}
+
+footer a {
+    color: #363636;
+    /* border: 1px solid #363636;
+    border-radius: 1px;  */
+    letter-spacing: 3px; 
+    margin: 10px; 
+    
+}
+
+footer a:hover {
+    background-color: #363636;
+    color: white; 
+    text-transform: uppercase;
+    animation-name: buttongradient;
+    animation-duration: 5s;
 }
 
 
