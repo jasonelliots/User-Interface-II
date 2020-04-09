@@ -64,7 +64,7 @@ section.toptop {
     flex-direction: column; 
     justify-content: space-evenly; 
     align-items: center; 
-    height: 35vh;
+    height: 200px;
 }
 
 section.top {
