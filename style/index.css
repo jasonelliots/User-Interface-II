@@ -51,14 +51,11 @@ hr {
     width: 100%;
 }
 footer {
-    text-align: center;
-    width: 35%;
     display: flex; 
-    flex-wrap: wrap; 
     justify-content: center;
-    margin-left: auto;
-    margin-right: auto; 
 }
+
+
 
 /* class styling */
 
@@ -82,13 +79,6 @@ div.bottom {
     display: flex;
     justify-content: space-between;
 }
-
-div.buttonsection {
-    padding: 15px 20px 5px 20px; 
-display: flex;
-justify-content: center;
-}
-
 
 /* specific elements */
 
@@ -134,22 +124,6 @@ nav a:hover {
       line-height: 1.5em; 
 }
 
-.buttons {
-    color: #363636;
-    /* border: 1px solid #363636;
-    border-radius: 1px;  */
-    letter-spacing: 3px; 
-    margin: 10px; 
-    
-}
-
-.buttons:hover {
-    background-color: #363636;
-    color: white; 
-    text-transform: uppercase;
-    animation-name: buttongradient;
-    animation-duration: 5s;
-}
 
 footer a {
     color: #363636;
@@ -168,4 +142,10 @@ footer a:hover {
     animation-duration: 5s;
 }
 
+.footdiv {
+    width: 35%;
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center;
+}
 
