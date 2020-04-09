@@ -52,6 +52,12 @@ hr {
 }
 footer {
     text-align: center;
+    width: 35%;
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto; 
 }
 
 /* class styling */
